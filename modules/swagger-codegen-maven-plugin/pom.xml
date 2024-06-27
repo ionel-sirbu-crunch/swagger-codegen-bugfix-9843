@@ -10,6 +10,7 @@
         <relativePath>../..</relativePath>
     </parent>
     <artifactId>swagger-codegen-maven-plugin</artifactId>
+    <version>3.0.57-CRUNCH</version>
     <name>swagger-codegen (maven-plugin)</name>
     <packaging>maven-plugin</packaging>
     <description>maven plugin to build modules from swagger codegen</description>
@@ -50,7 +51,7 @@
         <dependency>
             <groupId>io.swagger.codegen.v3</groupId>
             <artifactId>swagger-codegen</artifactId>
-            <version>${project.version}</version>
+            <version>${parent.version}</version>
         </dependency>
         <dependency>
             <groupId>io.swagger.codegen.v3</groupId>
