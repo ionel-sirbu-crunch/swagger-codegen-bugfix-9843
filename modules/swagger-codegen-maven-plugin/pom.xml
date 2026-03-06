@@ -10,6 +10,7 @@
         <relativePath>../../pom.xml</relativePath>
     </parent>
     <artifactId>swagger-codegen-maven-plugin</artifactId>
+    <version>3.0.77-CRUNCH</version>
     <name>swagger-codegen (maven-plugin)</name>
     <packaging>maven-plugin</packaging>
     <description>maven plugin to build modules from swagger codegen</description>
